@@ -1,0 +1,105 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: rgba(23, 18, 33, 0.87);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background: url(https://images.unsplash.com/photo-1549421263-6064833b071b?q=80&w=1965&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
+
+   background-repeat: no-repeat;
+   background-size: cover;
+   font-family: "Poppins", sans-serif;
+   font-weight: 400;
+   font-style: normal;
+
+}
+.container{
+    background-color: white / 30;
+    backdrop-filter: blur(10px);
+    color: white;
+    padding: 2rem;
+    border-radius: 1rem;
+    min-height: 45vh;
+    width: 45vh;
+   
+
+ 
+}
+h1{
+    width: 100%;
+}
+form{
+    margin: 1rem 0 0.5rem 0;
+}
+form select,input,button{
+    margin-top: 2rem;
+    width: 100%;
+    border: none;
+    outline: none;
+    border-radius: 0.7rem;
+}
+
+.amount p{
+    margin-top: 1rem;
+    font-size: 1.5rem;
+}
+
+form input{
+    border: 1px solid lightgray;
+    font-size: 1rem;
+    height: 2rem;
+    padding-left: 0.5rem;
+    
+}
+.dropdown{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    /* background-color: red; */
+    margin-top: 2rem;
+
+}
+.selectCon{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 6rem;
+    border-radius: 0.7rem;
+    border: 1px solid lightgray;
+    padding:0 0.5rem;
+    margin-top: 0.5rem
+    
+}
+.selectCon img{
+    max-width: 2rem;
+}
+.selectCon select{
+    width: auto;
+    font-size: 0.8rem;
+    margin: auto;
+}
+.dropdown i{
+    font-size: 1rem;
+    margin-top: 2rem;
+}
+
+.msg{
+    font-size: 1rem;
+    margin: 1rem 0;
+}
+form button{
+   padding: 1rem;
+   border-radius: 0.75rem;
+   font-size: 1rem;
+   font-weight: 700;
+   color: black;
+   background-color: #00FF00;
+  
+
+}
