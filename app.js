@@ -58,7 +58,7 @@ const updateRate = async () => {
 
   let cVal = cuDetails[toCurName]
   let exVal = amtVal * cVal
-  msg.innerText = `${amtVal} ${fromCurr.value} is equal to ${exVal} ${toCurr.value}`
+  msg.innerText = `${amtVal} ${fromCurr.value} is equal to ${exVal.toFixed(2)} ${toCurr.value}`
 
 }
 btn.addEventListener("click", (e) => {
